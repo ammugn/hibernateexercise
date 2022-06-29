@@ -21,6 +21,7 @@ public class CreateUserTable {
         log.info("successfully created user table");
         factory.close();
         session.close();
+        log.info("in test branch");
 
     }
 
